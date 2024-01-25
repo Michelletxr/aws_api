@@ -34,7 +34,7 @@ jobs:
       run: mvn -B package --file pom.xml -DskipTests # faz o build sem executar os testes
 
     - name: Login Docker Hub
-      run: docker login -u ${{DOCKER_USERNAME}} -p ${{DOCKER_PASSWPRD}}
+      run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWPRD}}
 
     - name: Build Docker image
       run: docker build -t michelletxr/api-aws:1.0 .
