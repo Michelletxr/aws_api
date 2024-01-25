@@ -31,7 +31,7 @@ jobs:
         cache: maven
         
     - name: Build with Maven
-      run: mvn -B package --file pom.xml -DskipTests # faz o build sem executar os testes
+      run: mvn -B package --file Api/pom.xml -DskipTests # faz o build sem executar os testes
 
     - name: Login Docker Hub
       run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWPRD}}
