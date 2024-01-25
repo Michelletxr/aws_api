@@ -37,7 +37,7 @@ jobs:
       run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
 
     - name: Build Docker image
-      run: docker build -t michelletxr/api-aws:1.0 .
+      run: docker build -t michelletxr/api-aws:1.0 ./Api
 
     - name: Push Docker image
       run: docker push michelletxr/api-aws:1.1
