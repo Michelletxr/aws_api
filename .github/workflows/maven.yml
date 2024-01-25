@@ -42,6 +42,9 @@ jobs:
     - name: Push Docker image
       run: docker push michelletxr/api-aws:1.0
 
+    - name: Lint
+      uses: super-linter/super-linter@v5.7.2  # x-release-please-version
+
 
 
 
