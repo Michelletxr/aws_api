@@ -1,0 +1,14 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìðð‰ÿÿÿÿÿ
+o
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(“èïá
+{
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(Ìðð‰ÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÅïêùÿÿÿÿ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
+<
+java:S1452!"&Remove usage of generic wildcard type.(òª’
+<
+java:S14527"&Remove usage of generic wildcard type.(ÝáÔ°
